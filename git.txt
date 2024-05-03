@@ -1,0 +1,33 @@
+Sequence
+git init
+git add .
+git commit -m &quot;-----------&quot;
+git remote add origin URL
+git push -u origin master
+
+Steps:
+Initialization
+git init
+This stages all the files in your project
+git add .
+Commit  allows you to track the history of changes, revert to previous versions,
+collaborate with others, and work on different branches.
+When we commit, we should always include a message.By adding clear messages
+to each commit, it is easy for yourself (and others) to see what has changed and
+when.
+.git commit -m &quot;-----------&quot;
+If you get error message after commit like this:
+Author identity unknown
+git config --global user.email &quot;you@example.com&quot;
+git config --global user.name &quot;Your Name&quot;
+Then execute both statements by putting your credentials.
+Connect to Your GitHub Repository
+git remote add origin URL
+The git push command is used to transfer or push the commit, which is made on a
+local branch in your computer to a remote repository like GitHub. 
+git push -u origin master
+
+##Optional
+create new branch
+git checkout -b branchname
+git push
