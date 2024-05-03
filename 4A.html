@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mobile Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>Items List</h1>
+        </div>
+
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#item1">Item 1</a></li>
+                <li><a href="#item2">Item 2</a></li>
+                <li><a href="#item3">Item 3</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer">
+            <h4>Simple Mobile Website</h4>
+        </div>
+    </div>
+
+    <!-- Item 1 Details Page -->
+    <div data-role="page" id="item1">
+        <div data-role="header">
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <h1>Item 1 Details</h1>
+        </div>
+
+        <div data-role="content">
+            <h2>Item 1</h2>
+            <p>This is the details page for Item 1.</p>
+            <a href="#home" data-role="button" data-icon="back" data-iconpos="left">Back to Home</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>Simple Mobile Website</h4>
+        </div>
+    </div>
+
+    <!-- Item 2 Details Page -->
+    <div data-role="page" id="item2">
+        <div data-role="header">
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <h1>Item 2 Details</h1>
+        </div>
+
+        <div data-role="content">
+            <h2>Item 2</h2>
+            <p>This is the details page for Item 2.</p>
+            <a href="#home" data-role="button" data-icon="back" data-iconpos="left">Back to Home</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>Simple Mobile Website</h4>
+        </div>
+    </div>
+
+    <!-- Item 3 Details Page -->
+    <div data-role="page" id="item3">
+        <div data-role="header">
+            <a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+            <h1>Item 3 Details</h1>
+        </div>
+
+        <div data-role="content">
+            <h2>Item 3</h2>
+            <p>This is the details page for Item 3.</p>
+            <a href="#home" data-role="button" data-icon="back" data-iconpos="left">Back to Home</a>
+        </div>
+
+        <div data-role="footer">
+            <h4>Simple Mobile Website</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>
